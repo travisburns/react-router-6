@@ -8,13 +8,14 @@ import Error from './pages/Error'
 const App = () => {
   return (
    <BrowserRouter>
+   <nav>THe Navigation</nav>
    <Routes>
     <Route path="/" element={<Home />} />
     <Route path="about" element={<About />} />
     <Route path="products" element={<Products />} />
     <Route path="*" element={<Error />} />
    </Routes>
-   
+   <footer>Our Footer</footer>
    
    </BrowserRouter>
   )
