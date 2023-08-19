@@ -7,9 +7,7 @@ const SingleProduct = () => {
     <section className='section product'>
       <div className='flex'>
       <h4>{productId}</h4>
-      <h4>{productId}</h4>
-      <h4>{productId}</h4>
-      <h4>{productId}</h4>
+     
       </div>
       <Link to="/products">Back to products</Link>
     </section>
